@@ -42,7 +42,7 @@ In JDK 5's HotSpot VM or earlier, there were 3 possible flags for *compile type*
 PrintCompilation's output in JDK 6 or later is mostly affected by these 2 changes:
 
 1. [6953144: Tiered compilation](http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6953144) [changeset](http://hg.openjdk.java.net/hsx/hotspot-comp/hotspot/rev/d5d065957597)
-+  [7022998: JSR 292 recursive method handle calls inline themselves infinitely](http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6953144) [changeset](http://hg.openjdk.java.net/hsx/hotspot-comp/hotspot/rev/3d58a4983660)
++  [7022998: JSR 292 recursive method handle calls inline themselves infinitely](http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=7022998) [changeset](http://hg.openjdk.java.net/hsx/hotspot-comp/hotspot/rev/3d58a4983660)
 
 So let's see what's going on before and after these changes.
 
