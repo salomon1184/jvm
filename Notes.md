@@ -345,7 +345,7 @@ An example of `PrintCompilation` log for a Java method to be compiled by C1 in t
 
 ### JDK 6 update 25 to 27 (HotSpot 20)
 
-This is after [6953144](http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6953144) and before [7022998](http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6953144). The HotSpot VM in these JDK versions features a much improved implementation of tiered compilation, which finally uses all 5 tiers (0 to 4) together.
+This is after [6953144](http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6953144) and before [7022998](http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=7022998). The HotSpot VM in these JDK versions features a much improved implementation of tiered compilation, which finally uses all 5 tiers (0 to 4) together.
 
 The major changes on `PrintCompilation`'s output involve two parts:
 
@@ -537,7 +537,7 @@ The `PrintCompilation` output for native wrapper remains unchanged in this versi
 
 ### JDK 7 (HotSpot 21)
 
-This is after [7022998](http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6953144). There's been a lot of changes between HS20 and HS21, including a refactoring of `PrintCompilation`'s output. Handling for normal Java methods and native wrappers are finally unified into a single method.
+This is after [7022998](http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=7022998). There's been a lot of changes between HS20 and HS21, including a refactoring of `PrintCompilation`'s output. Handling for normal Java methods and native wrappers are finally unified into a single method.
 
 The basic format string for non-tiered mode:
 
