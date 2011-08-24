@@ -2,7 +2,7 @@
 
 This note tries to document the output of `PrintCompilation` flag in HotSpot VM. It was originally intended to be a reply to a [blog post on PrintCompilation](http://blog.joda.org/2011/08/printcompilation-jvm-flag.html) from [Stephen Colebourne](http://blog.joda.org/). It's kind of grown too big to fit as a reply, so I'm putting it here.
 
-Written by: Kris Mok < rednaxelafx@gmail.com >
+Written by: Kris Mok <rednaxelafx@gmail.com>
 
 Most of the contents in this note are based on my reading of HotSpot source code from [OpenJDK](http://openjdk.java.net/) and experimenting with the VM flags; otheres come from [HotSpot mailing lists](http://openjdk.java.net/groups/hotspot/) and other reading materials listed in the "References" section.
 
