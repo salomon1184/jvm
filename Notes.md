@@ -12,14 +12,14 @@ Most of the contents in this note are based on my reading of HotSpot source code
 
 There's been some changes to what `PrintCompilation` prints by a HotSpot VM. In this gist, I'm showing a few log examples of running `groovysh` on these 8 configurations:
 
-1. JDK 5 update 22 / HotSpot Client VM
-+  JDK 6 / HotSpot Client VM
-+  JDK 6 update 14 / HotSpot Server VM 14.0-b16
-+  JDK 6 update 18 / HotSpot Server VM 16.0-b13 +TieredCompilation
-+  JDK 6 update 25 / HotSpot Server VM 20.0-b11
-+  JDK 6 update 25 / HotSpot Server VM 20.0-b11 +TieredCompilation
-+  JDK 7 / HotSpot Server VM 21.0-b17
-+  JDK 7 / HotSpot Server VM 21.0-b17 +TieredCompilation
+1. [JDK 5 update 22 / HotSpot Client VM](#file_jdk5u22_client.log)
++  [JDK 6 / HotSpot Client VM](#file_jdk6_client.log)
++  [JDK 6 update 14 / HotSpot Server VM 14.0-b16](#file_jdk6u14_hs14.log)
++  [JDK 6 update 18 / HotSpot Server VM 16.0-b13 +TieredCompilation](#file_jdk6u18_hs16_tiered_compilation.log)
++  [JDK 6 update 25 / HotSpot Server VM 20.0-b11](#file_jdk6u25_hs20.log)
++  [JDK 6 update 25 / HotSpot Server VM 20.0-b11 +TieredCompilation](#file_jdk6u25_hs20_tiered_compilation.log)
++  [JDK 7 / HotSpot Server VM 21.0-b17](#file_jdk7_hs21.log)
++  [JDK 7 / HotSpot Server VM 21.0-b17 +TieredCompilation](#file_jdk7_hs21_tiered_compilation.log)
 
 ### Common flags
 
