@@ -334,7 +334,7 @@ A Java method will either be compiled
 
 otherwise it'd be running at tier 0 (`CompLevel_none`) by the interpreter.
 
-For `PrintCompilation`'s output, in "tiered" mode, a compilation task to be carried out by C1 will print `1` at the end of the method attribute flags, and one carried out by C2 will print *empty*.
+For `PrintCompilation`'s output, in "tiered" mode, a compilation task to be carried out by C1 will print `1` at the end of the method attribute flags, and the ones carried out by C2 will print *empty*.
 
 An example of `PrintCompilation` log for a Java method to be compiled by C1 in tiered mode:
 
